@@ -1,0 +1,17 @@
+{
+    "datetime_format": "%Y-%m-%d %H:%M:%S",
+    "log": {
+        "file_name": "log.txt",
+        "format": "%(asctime)s %(levelname)s: %(message)s",
+        "maxsize_megabytes": 1,
+        "backup_count": 5
+    },
+    "parser": {
+        "output_file_name": "MISLibMethods",
+        "output_file_ext": "csv",
+        "output_file_encode": "big5",
+        "scan_file_ext": "cs",
+        "scan_file_decode": "utf-8",
+        "sheet_column_name": "路徑檔名,類別,類別說明,方法簽名,方法說明"
+    }
+}
